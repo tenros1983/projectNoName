@@ -2,21 +2,24 @@
 <html lang="ru" dir="ltr" class="page">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Тестовый проект</title>
-        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="styles/visually-hidden.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
     </head>
     <body class="page__body">
         <header class="header">
-            <div class="header__logo-wrapper">
-                <img class="header__logo-img" src="" alt="Логотип картинка">
-                <img class="header__logo-title" src="" alt="Логотип надпись">
-            </div>
+            <img class="header__logo-img" src="image/logo-mobile.png" alt="Логотип картинка" width="33px" height="37px">
+            <img class="header__logo-title" src="image/logo-title.png" alt="Логотип надпись" width="101px" height="18px">
             <nav class="nav-master">
-                <button class="nav-master__button"> <!-- надо в будущем подумать и возможно здесь будут модификаторы, т.к.  кнопка меняет расположение,
+                <button class="nav-master__button button"> <!-- надо в будущем подумать и возможно здесь будут модификаторы, т.к.  кнопка меняет расположение,
                 то есть будет модификатор-->
-                    <span></span>
+                    <span class="button__item-image"></span>
+                    <span class="button__item-image"></span>
+                    <span class="button__item-image"></span>
                 </button>
-                <div class="nav-master__wrapper">
+                <div class="nav-master__wrapper visually-hidden">
                     <ul class="nav-master__list">
                         <li class="nav-master__item">
                             <a href="nav-master__link">
