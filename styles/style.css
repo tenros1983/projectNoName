@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-style:  normal;
+    src: local('Oswald'),
+        url('../fonts/Oswald.woff2') format('woff2'),
+        url('../fonts/Oswald.woff') format('woff'),
+        url('../fonts/Oswald.ttf') format('truetype');
+}
+
+.page__body {
+  margin: 0;
+  font-family: 'Oswald';
+}

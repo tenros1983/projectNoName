@@ -7,42 +7,35 @@
         <link rel="stylesheet" href="styles/visually-hidden.css">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body class="page__body">
-        <header class="header">
-            <img class="header__logo-img" src="image/logo-mobile.png" alt="Логотип картинка" width="33px" height="37px">
-            <img class="header__logo-title" src="image/logo-title.png" alt="Логотип надпись" width="101px" height="18px">
-            <nav class="nav-master">
-                <button class="nav-master__button button"> <!-- надо в будущем подумать и возможно здесь будут модификаторы, т.к.  кнопка меняет расположение,
+        <header class="header header__inner">
+            <img src="image\logo-mobile.png" alt="Логотип картинка" width="33px" height="37px">
+            <img src="image\logo-title.png" alt="Логотип надпись" width="101px" height="18px">
+            <nav class="nav">
+                <button class="nav__button button" type="button" name="btn-burger"> <!-- надо в будущем подумать и возможно здесь будут модификаторы, т.к.  кнопка меняет расположение,
                 то есть будет модификатор-->
                     <span class="button__item-image"></span>
                     <span class="button__item-image"></span>
                     <span class="button__item-image"></span>
                 </button>
-                <div class="nav-master__wrapper visually-hidden">
-                    <ul class="nav-master__list">
-                        <li class="nav-master__item">
-                            <a href="nav-master__link">
-                                главная
-                            </a>
-                        </li>
-                        <li class="nav-master__item">
-                            <a href="nav-master__link">
-                                каталог продукции
-                            </a>
-                        </li>
-                        <li class="nav-master__item">
-                            <a href="nav-master__link">
-                                подбор программы
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </nav>
         </header>
 
         <main class="main">
-
+            <h1 class="visually-hidden">Питание для котов</h1>
+            <section class="promo">
+                <div class="promo__avatar-wrapper avatar">
+                    <img class="avatar__picture" src="image\promo_avatar.png" alt="Аватарка. Изображение кота" width="320px" height="302px">
+                </div>
+                <h2 class="promo__title">Функциональное питание для котов</h2>
+                <!--
+                <p class="promo__slogan">занялся собой? займись котом!</p>
+                <img class="promo__pictures" src="image\promo_product.png" alt="Продукт">
+                <button class="promo_button" type="button" name="PickUp-Programm">подобрать программу</button>
+              -->
+            </section>
         </main>
 
         <footer class="footer">

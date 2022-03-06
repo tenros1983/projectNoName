@@ -1,5 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.nav-master__button {
+.header__inner {
+  margin: 11px 20px 17px;
+}
+
+.nav__button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
